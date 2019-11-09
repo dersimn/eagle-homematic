@@ -60,7 +60,7 @@
 <layer number="102" name="Changes" color="12" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;h2&gt;Bibliothek für die Homematic-Module&lt;/h2&gt;
+<description>&lt;h2&gt;Library for Homematic modules and boards&lt;/h2&gt;
 
 &lt;h3&gt;Credits&lt;/h3&gt;
 &lt;ul&gt;
