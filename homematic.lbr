@@ -224,6 +224,40 @@
 <wire x1="5.08" y1="-10.16" x2="5.08" y2="7.62" width="0.254" layer="94"/>
 <wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
 </symbol>
+<symbol name="HMIP-MOD-RC8">
+<wire x1="-15.24" y1="-25.4" x2="-15.24" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="25.4" x2="15.24" y2="25.4" width="0.254" layer="94"/>
+<wire x1="15.24" y1="25.4" x2="15.24" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-25.4" x2="-15.24" y2="-25.4" width="0.254" layer="94"/>
+<pin name="TA0" x="20.32" y="-2.54" length="middle" direction="in" rot="R180"/>
+<pin name="TA1" x="20.32" y="-5.08" length="middle" direction="in" rot="R180"/>
+<pin name="TA2" x="20.32" y="-7.62" length="middle" direction="in" rot="R180"/>
+<pin name="TA3" x="20.32" y="-10.16" length="middle" direction="in" rot="R180"/>
+<pin name="TA4" x="20.32" y="-12.7" length="middle" direction="in" rot="R180"/>
+<pin name="TA5" x="20.32" y="-15.24" length="middle" direction="in" rot="R180"/>
+<pin name="TA6" x="20.32" y="-17.78" length="middle" direction="in" rot="R180"/>
+<pin name="TA7" x="20.32" y="-20.32" length="middle" direction="in" rot="R180"/>
+<pin name="TA8" x="20.32" y="-22.86" length="middle" direction="in" rot="R180"/>
+<pin name="GND" x="-20.32" y="-22.86" length="middle" direction="pwr"/>
+<pin name="2-3,3V" x="-20.32" y="-15.24" length="middle" direction="pwr"/>
+<pin name="IN8" x="20.32" y="2.54" length="middle" direction="in" rot="R180"/>
+<pin name="STATUS_S" x="-20.32" y="17.78" length="middle" direction="out"/>
+<pin name="STATUS_G" x="-20.32" y="20.32" length="middle" direction="out"/>
+<pin name="STATUS_R" x="-20.32" y="22.86" length="middle" direction="out"/>
+<pin name="IN7" x="20.32" y="5.08" length="middle" direction="in" rot="R180"/>
+<pin name="IN6" x="20.32" y="7.62" length="middle" direction="in" rot="R180"/>
+<pin name="IN5" x="20.32" y="10.16" length="middle" direction="in" rot="R180"/>
+<pin name="IN4" x="20.32" y="12.7" length="middle" direction="in" rot="R180"/>
+<pin name="IN3" x="20.32" y="15.24" length="middle" direction="in" rot="R180"/>
+<pin name="IN2" x="20.32" y="17.78" length="middle" direction="in" rot="R180"/>
+<pin name="IN1" x="20.32" y="20.32" length="middle" direction="in" rot="R180"/>
+<pin name="IN0" x="20.32" y="22.86" length="middle" direction="in" rot="R180"/>
+<circle x="0" y="15.24" radius="2.54" width="0.254" layer="94"/>
+<text x="-15.24" y="25.908" size="1.778" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-25.908" size="1.778" layer="96" align="top-left">&gt;VALUE</text>
+<pin name="3,5V-12V" x="-20.32" y="-17.78" length="middle" direction="pwr"/>
+<text x="-2.286" y="10.414" size="1.778" layer="94">ANT</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="HM-MOD-EM-8BIT" prefix="U" uservalue="yes">
@@ -309,6 +343,46 @@
 <technologies>
 <technology name="">
 <attribute name="VALUE" value="HM-MOD-RPI-PCB" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HMIP-MOD-RC8" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="HMIP-MOD-RC8" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HM-MOD">
+<connects>
+<connect gate="G$1" pin="2-3,3V" pad="14"/>
+<connect gate="G$1" pin="3,5V-12V" pad="16"/>
+<connect gate="G$1" pin="GND" pad="10 11 12 17 21 22 23"/>
+<connect gate="G$1" pin="IN0" pad="32"/>
+<connect gate="G$1" pin="IN1" pad="31"/>
+<connect gate="G$1" pin="IN2" pad="30"/>
+<connect gate="G$1" pin="IN3" pad="29"/>
+<connect gate="G$1" pin="IN4" pad="28"/>
+<connect gate="G$1" pin="IN5" pad="27"/>
+<connect gate="G$1" pin="IN6" pad="26"/>
+<connect gate="G$1" pin="IN7" pad="25"/>
+<connect gate="G$1" pin="IN8" pad="24"/>
+<connect gate="G$1" pin="STATUS_G" pad="19"/>
+<connect gate="G$1" pin="STATUS_R" pad="20"/>
+<connect gate="G$1" pin="STATUS_S" pad="18"/>
+<connect gate="G$1" pin="TA0" pad="1"/>
+<connect gate="G$1" pin="TA1" pad="2"/>
+<connect gate="G$1" pin="TA2" pad="3"/>
+<connect gate="G$1" pin="TA3" pad="4"/>
+<connect gate="G$1" pin="TA4" pad="5"/>
+<connect gate="G$1" pin="TA5" pad="6"/>
+<connect gate="G$1" pin="TA6" pad="7"/>
+<connect gate="G$1" pin="TA7" pad="8"/>
+<connect gate="G$1" pin="TA8" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="HMIP-MOD-RC8" constant="no"/>
 </technology>
 </technologies>
 </device>
