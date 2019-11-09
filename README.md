@@ -1,4 +1,4 @@
-# Library for Homematic modules and components
+# EAGLE library for Homematic modules and components
 
 Mostly copy & pasted from other projects, see [credits](#credits) for reference.
 
