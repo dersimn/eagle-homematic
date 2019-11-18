@@ -471,7 +471,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="HMIP-MOD-OC8" constant="no"/>
+<attribute name="VALUE" value="HmIP-MOD-OC8" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -500,7 +500,9 @@
 <connect gate="G$1" pin="TX" pad="17"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="VALUE" value="HmIP-MOD-OC8" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -542,7 +544,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="HMIP-MOD-RC8" constant="no"/>
+<attribute name="VALUE" value="HmIP-MOD-RC8" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -574,7 +576,9 @@
 <connect gate="G$1" pin="TA8" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="VALUE" value="HmIP-MOD-RC8" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -679,7 +683,9 @@
 <connect gate="G$1" pin="TA20" pad="17"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="VALUE" value="HM-MOD-EM-8Bit" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -816,7 +822,7 @@
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="HM-MOD-RE-8" constant="no"/>
+<attribute name="VALUE" value="HM-MOD-Re-8" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -845,7 +851,9 @@
 <connect gate="G$1" pin="TX" pad="17"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="VALUE" value="HM-MOD-Re-8" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
